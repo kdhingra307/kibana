@@ -165,7 +165,7 @@ export const createLineVisTypeDefinition = (deps: VisTypeVislibDependencies) => 
           defaultMessage: 'Split series',
         }),
         min: 0,
-        max: 3,
+        max: 10,
         aggFilter: ['!geohash_grid', '!geotile_grid', '!filter'],
       },
       {
